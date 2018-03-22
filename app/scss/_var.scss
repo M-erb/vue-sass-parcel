@@ -1,0 +1,61 @@
+// @import url('https://fonts.googleapis.com/css?family=Satisfy:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,600');
+// @import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600';
+
+// general colors and controls
+$black: #323738;
+$gray: #4f5151;
+$mid_gray: #d5d5d5;
+$light_gray: #F0F0F0;
+$extra_light_gray: #F6F6F6;
+$difused_gray: rgba(239, 241, 244, 0.8);
+$controls: #ACB5BF;
+$placeholder: rgba(180,180,180,.6);
+$approved: #2ecc71;
+$warning: #f39c12;
+
+//  color palette
+$color1: #7BD5ED;
+$color2: #7BD59C;
+$color3: #C1CAD6;
+$color4: #e74c3c;//FF4349
+$baseColor: #FFFFFF;
+
+// nav colors
+$nav_c: $black;
+$nav_alt: #fff;
+$nav_bkgd: transparent;
+$nav_bkgd_alt: rgba(41,41,41,.9);
+
+// fonts
+$titlesFont: 'open sans', 'lato', sans-serif;
+$readFont: 'lato', sans-serif;
+$controlsFont: $readFont;
+
+@mixin titleStyle {
+  font-family: $titlesFont;
+  font-weight: 600;
+}
+
+// header
+$headerHeight: 50px;
+
+// social
+.fa-facebook-official, .facebook {
+  color: #3b5998;
+  background-color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+.fa-pinterest, .pinterest {
+  color: #cb2027;
+  background-color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+//vue.js
+[v-cloak] {
+  display: none;
+}

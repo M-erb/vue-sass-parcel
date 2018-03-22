@@ -1,0 +1,114 @@
+.storefront-handheld-footer-bar {
+  z-index: 900;
+}
+
+.site-footer {
+  padding: 0;
+}
+
+#site-footer {
+  background-color: $gray;
+  .mobi_wrap {
+    @media (min-width: 800px) {
+      display: none;
+    }
+  }
+  .mobi_product_search {
+    display: flex;
+    justify-content: center;
+    form {
+      margin: 0;
+      input {
+        width: 200px;
+      }
+    }
+  }
+  .social_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      font-size: 1.6rem;
+      color: #fff;
+      padding: 6px;
+      margin: 0 6px;
+      transition: all .3s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+  .tws_footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .footer_list {
+      list-style: none;
+      margin: 0;
+      &.left_list {
+        margin-left: 100px;
+        text-align: right;
+      }
+      li {
+        a {
+          text-decoration: none;
+          font-size: 1.4rem;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        form {
+          margin-bottom: 6px;
+          .search_submit {
+            max-height: 76px;
+            padding-left: 1em;
+            padding-right: 1em;
+            i.fa {
+              font-size: 24px;
+              position: relative;
+              top: 3px;
+            }
+          }
+        }
+      }
+      &.tws_extras {
+        .product_search {
+          @media (max-width: 800px) {
+            display: none;
+          }
+        }
+        @media (max-width: 800px) {
+          margin-right: 100px;
+          text-align: left;
+        }
+      }
+      @media (max-width: 520px) {
+        &.tws_extras, &.left_list {
+          margin-left: 0;
+          margin-right: 0;
+          text-align: center;
+        }
+      }
+    }
+    .footer_logo {
+      position: relative;
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      @media (max-width: 800px) {
+        display: none;
+      }
+      img {
+        display: block;
+        // transform: translateX(50%);
+        width: 120px;
+        height: 120px;
+      }
+    }
+    .footer_space {
+      max-width: 300px;
+    }
+  }
+}

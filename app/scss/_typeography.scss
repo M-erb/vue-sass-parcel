@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $titlesFont;
+  color: $gray;
+  line-height: 1;
+}
+
+body a {
+  color: $color1;
+  cursor: pointer;
+  text-decoration: underline;
+  outline: none;
+}
+
+* {
+  outline: none;
+}
