@@ -2,10 +2,10 @@ button, .btn {
   transition: all 0.3s;
 }
 .btn {
-  background-color: $primColor;
+  background-color: $color1;
   color: #fff;
   &:hover {
-    background-color: darken($primColor, 10);
+    background-color: darken($color1, 10);
     color: #fff;
   }
 }
@@ -126,7 +126,7 @@ a.btn {
         margin: 8px;
       }
       &[type=submit] {
-        background-color: $primColor;
+        background-color: $color1;
         color: #fff;
       }
     }
