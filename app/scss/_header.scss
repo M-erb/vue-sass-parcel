@@ -110,7 +110,7 @@
                     width: 26px;
                     height: 26px;
                     position: absolute;
-                    background-color: $primColor;
+                    background-color: $color1;
                     border-radius: 50%;
                     top: 50%;
                     left: 50%;
@@ -181,7 +181,7 @@
                 width: 100%;
                 height: 0px;
                 transition: all 0.3s;
-                background-color: $primColor;
+                background-color: $color1;
                 bottom: 0;
                 left: 0;
               }
@@ -195,7 +195,7 @@
               }
               &.active_nav {
                 // font-size: 1.2rem;
-                border: 2px solid $primColor;
+                border: 2px solid $color1;
                 &:hover {
                   transform: scale(1.1);
                 }
@@ -230,7 +230,7 @@
                   width: 26px;
                   height: 26px;
                   position: absolute;
-                  background-color: $primColor;
+                  background-color: $color1;
                   border-radius: 50%;
                   top: 50%;
                   left: 50%;
@@ -405,7 +405,7 @@
   left: 0;
   width: 100%;
   z-index: 9000;
-  background-color: $primColor;
+  background-color: $color1;
   .mobi_close_wrap {
     position: absolute;
     top: 20px;
