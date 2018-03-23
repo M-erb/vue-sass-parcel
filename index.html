@@ -14,13 +14,13 @@
 <body>
   <div id="app">
     <header id="site-header" class="no-print">
-      <h1>{{test}}</h1>
+      <site-nav></site-nav>
     </header>
     <main id="main-content" role="main">
-    
+      <router-view></router-view>
     </main>
-    <footer id="global-footer">
-    
+    <footer id="site-footer">
+      <site-footer></site-footer>
     </footer>
   </div>
   <!-- Vue.js -->

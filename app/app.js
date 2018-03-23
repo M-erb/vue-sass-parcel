@@ -1,9 +1,11 @@
+const router = require("./router")
+
 new Vue({
   el: '#app',
+  router: router,
   data: {
     apiOrigin: location.origin + '/wp-json/wp/v2/',
-    htmlBody: document.querySelector('body'),
-    test: "hello!"
+    htmlBody: document.querySelector('body')
   },
   methods: {
 
