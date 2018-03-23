@@ -6,6 +6,8 @@
 window.Vue = require("./node_modules/vue/dist/vue.js")
 window.axios = require("axios")
 Vue.prototype.$axios = window.axios
+
+// plug-ins
 window.Headroom = require("./plug-ins/headroom.min.js")
 require("./directives/viewport-scroll")
 // https://github.com/freearhey/vue2-filters
