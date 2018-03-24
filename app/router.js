@@ -9,11 +9,20 @@ const about = {
   </div>
   `
 }
+const error = {
+  template: /*html*/ `
+  <div>
+    <h1>Page not found</h1>
+    <p>404 error</p>
+  </div>
+  `
+}
 
 module.exports = router = new VueRouter({
   routes: [
     {path: '/', component: home},
     {path: '/about', component: about},
+    {path: '*', component: error},
   ],
   mode: "history"
 })
