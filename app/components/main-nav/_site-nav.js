@@ -1,4 +1,4 @@
-Vue.component('site-nav', {
+module.exports = Vue.component('site-nav', {
   template: /*html*/`
     <div class="site-navigation headroom">
       <h1>Main Navigation</h1>

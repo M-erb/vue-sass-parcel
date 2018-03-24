@@ -1,4 +1,4 @@
-Vue.component('site-footer', {
+module.exports = Vue.component('site-footer', {
   template: /*html*/`
     <div class="footer-inner">
       <h1>Footer</h1>

@@ -1,4 +1,4 @@
-Vue.component('home-page', {
+module.exports = Vue.component('home-page', {
   template: /*html*/ `
     <div>
       <h1>Home Page</h1>

@@ -1,6 +1,6 @@
 const router = require("./router")
 
-new Vue({
+module.exports = new Vue({
   el: '#app',
   router: router,
   data: {
