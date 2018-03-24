@@ -1,9 +1,5 @@
 const home = {
-  template: /*html*/ `
-  <div>
-    <h1>Home Page</h1>
-  </div>
-  `
+  template: "<home-page></home-page>"
 }
 
 const about = {
@@ -16,8 +12,8 @@ const about = {
 
 module.exports = router = new VueRouter({
   routes: [
-    { path: '/', component: home },
-    { path: '/about', component: about },
+    {path: '/', component: home},
+    {path: '/about', component: about},
   ],
   mode: "history"
 })
