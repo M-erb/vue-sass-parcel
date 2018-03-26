@@ -1,4 +1,4 @@
-const router = require("./router")
+const router = require("./router").router
 
 module.exports = new Vue({
   el: '#app',
